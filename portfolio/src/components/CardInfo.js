@@ -9,7 +9,7 @@ function CardInfo(props){
         <animated.div className="g-card-info" style={style}>
             <p className="g-card-title">{props.title}</p>
             <p className="g-card-sub-title">{props.subTitle}</p>
-            <a href={props.link} target="_blank" rel="noopener norefewrrer">Views</a>
+            <a href={props.link} target="_blank" rel="noopener noreferrer">Views</a>
         </animated.div>
         
     );

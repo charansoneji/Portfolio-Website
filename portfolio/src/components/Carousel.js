@@ -6,7 +6,6 @@ import github from '../assets/images/github.png';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 import Card from '../components/Card';
 
@@ -50,7 +49,7 @@ class Carousel extends React.Component {
 
         items[id].selected = items[id].selected ? false : true;
         items.forEach(item => {
-            if (item.id != id) {
+            if (item.id !== id) {
                 item.selected = false;
             }
         });
